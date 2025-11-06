@@ -156,13 +156,7 @@ internship-portal/
 ## 🏆 Team
 
 **Developed by:**
-- [Your Name] - Team Lead & Full Stack Developer
-- [Teammate 2] - Frontend Specialist
-- [Teammate 3] - Backend Developer
-- [Teammate 4] - UI/UX Designer
-- [Teammate 5] - Quality Assurance
-- [Teammate 6] - Documentation Specialist
-
+-Akshay Biradar
 **Under the guidance of:**  
 [Professor Name] - Department of Computer Science & Engineering
 
