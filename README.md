@@ -1,192 +1,73 @@
-# 🎓 Internship Management Portal
+# Welcome to your Lovable project
 
-A comprehensive web-based platform designed to streamline the internship application and management process for MIT ADT University. Built with modern web technologies and optimized data structures for maximum efficiency.
+## Project info
 
-![MIT ADT University](https://img.shields.io/badge/MIT-ADT_University-blue)
-![Version](https://img.shields.io/badge/version-1.0.0-green)
-![License](https://img.shields.io/badge/license-MIT-yellow)
+**URL**: https://lovable.dev/projects/df2f4606-9451-469a-a3de-3e0d1f1f4384
 
-## ✨ Features
+## How can I edit this code?
 
-### 👨‍🎓 Student Features
-- **Easy Registration** - Quick signup with student credentials
-- **Browse Internships** - Filter by department, company, or location
-- **One-Click Applications** - Apply to multiple internships seamlessly
-- **Application Tracking** - Real-time status updates (Pending/Approved/Rejected)
-- **Dashboard** - Personalized view of applications and recommendations
+There are several ways of editing your application.
 
-### 👨‍🏫 Coordinator Features
-- **Internship Management** - Create, edit, and manage internship postings
-- **Application Review** - Process student applications efficiently
-- **Department Management** - Organize internships by department
-- **Analytics** - View application statistics and trends
-- **Fair Processing** - First-come-first-served application review
+**Use Lovable**
 
-## 🛠 Technology Stack
+Simply visit the [Lovable Project](https://lovable.dev/projects/df2f4606-9451-469a-a3de-3e0d1f1f4384) and start prompting.
 
-**Frontend:**
-- HTML5, CSS3, JavaScript (ES6+)
-- Responsive Design
-- Modern UI/UX Principles
+Changes made via Lovable will be committed automatically to this repo.
 
-**Backend & Storage:**
-- Browser-based Local Storage
-- JavaScript Runtime Environment
-- No external dependencies required
+**Use your preferred IDE**
 
-## 🏗 System Architecture
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-### Data Structures Implementation
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-| Data Structure | Purpose | Performance |
-|----------------|---------|-------------|
-| **Hashing** | User authentication & quick lookups | O(1) |
-| **Queue** | Fair application processing (FIFO) | O(1) |
-| **Stack** | Recent activity display (LIFO) | O(1) |
-| **Tree** | Department hierarchy organization | O(log n) |
-| **Graph** | Student-internship relationships | O(V + E) |
+Follow these steps:
 
-### System Flow
-```
-User Login → Role Detection → Dashboard → Actions → Data Persistence → Real-time Updates
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
+
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
+
+# Step 3: Install the necessary dependencies.
+npm i
+
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
 ```
 
-## 🚀 Quick Start
+**Edit a file directly in GitHub**
 
-### Prerequisites
-- Modern web browser (Chrome, Firefox, Safari, Edge)
-- JavaScript enabled
-- Local storage support
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
 
-### Installation & Running
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/your-username/internship-portal.git
-   ```
+**Use GitHub Codespaces**
 
-2. **Navigate to project directory**
-   ```bash
-   cd internship-portal
-   ```
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-3. **Open the application**
-   - Simply open `index.html` in your web browser
-   - Or use a local server:
-     ```bash
-     python -m http.server 8000
-     # Then visit http://localhost:8000
-     ```
+## What technologies are used for this project?
 
-4. **Start using the portal**
-   - Register as a Student or Coordinator
-   - Explore the features based on your role
+This project is built with:
 
-## 📊 Performance Metrics
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
 
-- **Authentication**: < 100ms response time
-- **Data Retrieval**: Instant lookup operations
-- **Application Processing**: Real-time updates
-- **Scalability**: Supports 1000+ concurrent users
-- **Storage**: Efficient client-side data management
+## How can I deploy this project?
 
-## 🎯 Key Benefits
+Simply open [Lovable](https://lovable.dev/projects/df2f4606-9451-469a-a3de-3e0d1f1f4384) and click on Share -> Publish.
 
-### ⚡ Performance
-- Sub-second response times for all operations
-- Efficient algorithms with optimal time complexity
-- Minimal memory footprint
+## Can I connect a custom domain to my Lovable project?
 
-### 🔒 Security
-- Hashed password storage
-- Session-based authentication
-- Secure data handling
+Yes, you can!
 
-### 🎨 User Experience
-- Intuitive interface design
-- Mobile-responsive layout
-- Real-time status updates
-- Fair application processing
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
-### 📈 Scalability
-- Modular architecture
-- Efficient data structures
-- Easy feature extensibility
-
-## 👥 User Roles
-
-### Student
-- Browse available internships
-- Submit applications
-- Track application status
-- View personal dashboard
-
-### Coordinator
-- Post new internships
-- Review student applications
-- Manage department listings
-- Monitor application statistics
-
-## 🔧 Core Modules
-
-1. **Authentication System** - Secure login/registration
-2. **Dashboard Management** - Role-based views
-3. **Internship Catalog** - Browse and search functionality
-4. **Application Engine** - Apply and track applications
-5. **Administration Panel** - Coordinator management tools
-6. **Analytics Module** - Usage statistics and reports
-
-## 📁 Project Structure
-
-```
-internship-portal/
-├── index.html              # Main entry point
-├── css/
-│   └── style.css           # Main stylesheet
-├── js/
-│   ├── auth.js            # Authentication logic
-│   ├── student.js         # Student features
-│   ├── coordinator.js     # Coordinator features
-│   ├── storage.js         # Data management
-│   └── utils.js           # Utility functions
-├── assets/
-│   └── images/            # UI assets and logos
-└── README.md              # Project documentation
-```
-
-## 🏆 Team
-
-**Developed by:**
--Akshay Biradar
-**Under the guidance of:**  
-[Professor Name] - Department of Computer Science & Engineering
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🤝 Contributing
-
-We welcome contributions! Please feel free to submit pull requests or open issues for bugs and feature requests.
-
-## 📞 Support
-
-For support or questions:
-- Email: your-email@mituniversity.edu
-- Issue Tracker: [GitHub Issues](https://github.com/your-username/internship-portal/issues)
-
-## 🔮 Future Enhancements
-
-- [ ] AI-powered internship recommendations
-- [ ] Mobile application development
-- [ ] Advanced analytics dashboard
-- [ ] Integration with college ERP systems
-- [ ] Real-time chat support
-- [ ] Bulk application processing
-
----
-
-**Department of Computer Science & Engineering**  
-**MIT School of Computing**  
-**MIT Art, Design and Technology University**  
-*Rajbaug Campus, Loni-Kalbhor, Pune 412201*  
-**Academic Year 2025-26**
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
